@@ -13,34 +13,34 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp \
-    mainmenu.cpp \
-    howtoplaywidget.cpp \
-    newgamewidget.cpp \
-    loadgamewidget.cpp \
-    gameplaywidget.cpp \
-    game.cpp \
-    state.cpp \
-    save.cpp \
-    windialogue.cpp \
-    gamememento.cpp
+        gui/mainwindow.cpp \
+    gui/mainmenu.cpp \
+    gui/howtoplaywidget.cpp \
+    gui/newgamewidget.cpp \
+    gui/loadgamewidget.cpp \
+    gui/gameplaywidget.cpp \
+    logic/game.cpp \
+    logic/state.cpp \
+    logic/save.cpp \
+    gui/windialogue.cpp \
+    logic/gamememento.cpp
 
-HEADERS  += mainwindow.h \
-    mainmenu.h \
-    howtoplaywidget.h \
-    newgamewidget.h \
-    loadgamewidget.h \
-    gameplaywidget.h \
-    game.h \
-    state.h \
-    save.h \
-    windialogue.h \
-    gamememento.h
+HEADERS  += gui/mainwindow.h \
+    gui/mainmenu.h \
+    gui/howtoplaywidget.h \
+    gui/newgamewidget.h \
+    gui/loadgamewidget.h \
+    gui/gameplaywidget.h \
+    logic/game.h \
+    logic/state.h \
+    logic/save.h \
+    gui/windialogue.h \
+    logic/gamememento.h
 
-FORMS    += mainwindow.ui \
-    mainmenu.ui \
-    howtoplaywidget.ui \
-    newgamewidget.ui \
-    loadgamewidget.ui \
-    gameplaywidget.ui \
-    windialogue.ui
+FORMS    +=  gui/mainwindow.ui \
+     gui/mainmenu.ui \
+     gui/howtoplaywidget.ui \
+     gui/newgamewidget.ui \
+     gui/loadgamewidget.ui \
+     gui/gameplaywidget.ui \
+     gui/windialogue.ui
